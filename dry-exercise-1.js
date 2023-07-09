@@ -5,6 +5,10 @@
 
 const animals = ["Reindeer", "Wolf", "Cat"];
 
-for (let i of animals) {
-  console.log(i);
-};
+const printArrayItems = array => {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+}
+
+printArrayItems(animals);
